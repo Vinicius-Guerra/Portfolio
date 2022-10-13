@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400;500;600&display=swap');
+.boneco {
+    width: 40%;
+    height: 80%;
+    margin-left: 45vh;
+    margin-top: 5%;
+
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.section_direita {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12vh;
+}
+
+.section_esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao_linkedin {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid rgba(0, 74, 173, 1);
+    border-radius: 10px;
+    background-color: white;
+    width: 23%;
+    margin-left: 54vh;
+}
+
+.botao_linkedin:hover {
+    color: white;
+    background-color: rgba(0, 74, 173, 0.8);   
+}
+
+.section_esquerda p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: white;
+    margin-left: 150px;
+}
+
+.ola {
+    margin-left: 10vh;
+}
+
+.nome {
+    font-family: 'Noto Sans Adlam', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 15px;
+    color: wheat;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.paragrafo {
+    width: 100%;
+}
