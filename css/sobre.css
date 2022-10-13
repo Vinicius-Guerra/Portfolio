@@ -1,17 +1,27 @@
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .sobre {
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .sobre_img {
     width: 450px;
-    margin-left: 30px;
     margin-top: 145px;
 }
 
 .sobre_textos {
     width: 50%;
     margin-top: 150px;
+}
+
+.sobre_titulo {
+    font-family: 'Noto Sans Adlam', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: black;
 }
