@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400;500;600&display=swap');
-.boneco {
-    width: 40%;
-    height: 80%;
-    margin-left: 45vh;
-    margin-top: 5%;
-
-}
-
-.principal {
+.home {
     display: flex;
     align-items: center;
     width: 100%;
@@ -23,6 +15,14 @@
 .section_esquerda {
     display: flex;
     flex-direction: column;
+}
+
+.boneco {
+    width: 40%;
+    height: 80%;
+    margin-left: 45vh;
+    margin-top: 5%;
+
 }
 
 .botao_linkedin {
