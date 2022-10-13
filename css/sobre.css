@@ -1,27 +1,31 @@
-.container {
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .sobre {
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color:  #DFE3E5;
 }
 .sobre_img {
     width: 450px;
-    margin-top: 145px;
+    
 }
 
 .sobre_textos {
     width: 50%;
-    margin-top: 150px;
 }
 
 .sobre_titulo {
     font-family: 'Noto Sans Adlam', sans-serif;
     font-size: 2.3rem;
     font-weight: 500;
-    color: black;
+    color: #4F4C4C;;
+}
+
+.sobre_texto {
+    margin-top: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 90%;
 }
