@@ -23,11 +23,26 @@
 }
 
 .logo {
-    width: 85px;
-    height: 85px;
+    height: 70px;
     cursor: pointer;
     margin-top: 0;
     margin-right: auto;
+}
+
+.texto_logo {
+    font-family: 'Noto Sans Adlam', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 25px;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logotipo {
+    display: flex;
+    margin-right: 470px;
 }
 
 li, .link {
@@ -71,4 +86,9 @@ button {
 
 button:hover {
     background-color: rgba(0, 74, 173, 0.8);
+}
+
+.img_online {
+    width: 10px;
+    height: 10px;
 }
