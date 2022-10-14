@@ -14,8 +14,13 @@
 }
 .sobre_img {
     width: 450px;
-    
+    transition: ease 1.5s;
 }
+
+.sobre_img:hover {
+    width: 480px;
+}
+
 
 .sobre_textos {
     width: 50%;
