@@ -1,6 +1,5 @@
 .background_skills {
     background-image: url(../imagens/skill-bg.png);
-    height: 100vh;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% 100%;
@@ -10,7 +9,7 @@
     width: 90vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .logotipos_skills {
