@@ -4,7 +4,26 @@
     background-position: center top;
     background-size: 100% 100%;
 }
+.titulos_skills {
+    text-align: center;
+}
 
+.titulos_skills h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.titulos_skills p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(102, 99, 99);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
 .section_logos {
     width: 90vh;
     display: flex;
