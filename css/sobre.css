@@ -1,6 +1,6 @@
 .background_sobre {
     height: 100vh;
-    background-image: url(../imagens/background-page2.png);
+    background-image: url(../imagens/background-2.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% 100%;
@@ -24,6 +24,7 @@
 
 .sobre_textos {
     width: 50%;
+    margin-left: 60px;
 }
 
 .sobre_titulo {

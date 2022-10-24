@@ -1,21 +1,19 @@
 .background_skills {
+    background-image: url(../imagens/skill-bg.png);
     height: 100vh;
-    background-image: url(../imagens/background-skills.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% 100%;
 }
 
-.titulo_principal {
-    font-family: 'Noto Sans Adlam', sans-serif;
-    font-size: 3rem;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 100px;
+.section_logos {
+    width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.logo_skill {
-    width: 100px;
-    height: 100px;
-    border: 1px solid rgba(0, 74, 173, 1);
+.logotipos_skills {
+    width: 130px;
+    height: 130px;
 }
