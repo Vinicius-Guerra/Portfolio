@@ -8,6 +8,19 @@
     text-align: center;
 }
 
+.div_secoes {
+    display: flex;
+    justify-content: center;
+}
+
+.descricao_texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .titulos_skills h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
