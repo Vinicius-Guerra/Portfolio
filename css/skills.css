@@ -15,17 +15,20 @@
 
 .descricao_texto {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 0.9rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 28px;
+    border: 1px solid rgba(0, 74, 173, 0.2);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .titulos_skills h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 2.2rem;
-    padding: 5px;
+    padding: 15px;
     text-transform: uppercase;
 }
 
@@ -34,11 +37,11 @@
     font-weight: 300;
     font-size: 1rem;
     color: rgb(102, 99, 99);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 10px;
 }
 .section_logos {
-    width: 90vh;
+    width: 77vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
