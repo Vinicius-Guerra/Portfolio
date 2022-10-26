@@ -10,7 +10,12 @@
 
 .div_secoes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.descricao_skills {
+    width: 40%;
 }
 
 .descricao_texto {
@@ -28,7 +33,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 2.2rem;
-    padding: 15px;
+    padding-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -41,7 +46,7 @@
     margin-top: 10px;
 }
 .section_logos {
-    width: 77vh;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
