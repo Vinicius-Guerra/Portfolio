@@ -4,6 +4,9 @@
 
 .background_contato {
     height: 100vh;
+    background-color: #004AAD;
+    background-repeat: no-repeat;
+    background-position: center top;
     background-size: 100% 100%;
 }
 
@@ -24,17 +27,17 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2rem;
     font-weight: bolder;
-    color: #004AAD;
+    color: white;
     text-align: center;
     position: relative;
-    margin: 80px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .contato_subtitulo {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
     font-weight: 200;
-    color: rgb(114, 111, 111);
+    color: white;
     text-align: center;
     margin-top: 10px;
 }
@@ -98,4 +101,8 @@
     top: 0.25rem;
     transition: all .25s;
 }
+
+/* APAGAR SE DER MERDA */
+
+
 
