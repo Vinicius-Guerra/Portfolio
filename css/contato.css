@@ -73,7 +73,7 @@
 .input {
     box-sizing: border-box;
     border-top: 0px;
-    border-left: 3px solid #004AAD;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
     border-right: 0px;
     border-bottom: 1px solid rgba(0, 74, 173, 0.5);
     padding: 1.375rem 0.5rem 0.5rem;
