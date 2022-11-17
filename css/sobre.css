@@ -47,3 +47,7 @@
     height: 50px;
     margin-top: 10px;
 }
+
+.sobre_links:hover {
+    border-bottom: 1px solid #004AAD;
+}
