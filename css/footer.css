@@ -1,0 +1,32 @@
+.background_footer {
+    height: 40vh;
+    background-color: #E6E6E6;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+}
+
+.logos_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.flogo {
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.flogo:hover {
+    border-bottom: 1px solid #004AAD;
+}
+
+.texto_footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #004AAD;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 74, 173, 0.5);
+    padding: 20px;
+}
