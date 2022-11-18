@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .background_enviado {
     background-color: #004AAD;
     height: 100vh;
@@ -14,4 +18,56 @@
     margin-top: 150px;
     border-radius: 25px;
     box-shadow: 0px 8px 10px #55a6ff38;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_verificado {
+    margin-left: 214px;
+    width: 140px;
+    height: 140px;
+}
+
+.text_area {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.zap {
+    padding:15px;
+}
+
+.zap a {
+    text-decoration: none;
+}
+
+.zap_logo {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.botao_voltar {
+    padding: 9px 25px;
+    margin-left: 180px;
+    margin-top: 15px;
+    background-color: rgba(0, 74, 173, 1);
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.botao_voltar:hover {
+    background-color: rgba(0, 74, 173, 0.8);
 }

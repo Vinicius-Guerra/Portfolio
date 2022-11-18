@@ -137,6 +137,7 @@
     width: 30%;
     margin-left: 235px;
     cursor: pointer;
+    transition: all 0.6s ease 0s;
 }
 
 .botao_enviar:hover {
