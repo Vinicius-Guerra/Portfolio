@@ -1,0 +1,17 @@
+.background_enviado {
+    background-color: #004AAD;
+    height: 100vh;
+}
+.quadrado {
+    display: flex;
+    justify-content: center;
+}
+.section_area {
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+    max-width: 35rem;
+    margin-top: 150px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 10px #55a6ff38;
+}
