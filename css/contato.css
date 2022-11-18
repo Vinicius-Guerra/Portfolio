@@ -127,6 +127,9 @@
 
 /* botao */
 .botao_enviar {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
     font-size: 1.1rem;
     color: #004AAD;
     border: 1px solid #004AAD;
