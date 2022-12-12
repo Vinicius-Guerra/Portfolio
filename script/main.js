@@ -9,7 +9,4 @@ for (contador = 0; contador < listaDeTeclas.length; contador++) {
 
 function exibirTexto () {
     txtPadrao.style.display = "none";
-    if (listaDeTeclas[0]) {
-        mostrarht.style.display = "flex";
-    }   
 }
