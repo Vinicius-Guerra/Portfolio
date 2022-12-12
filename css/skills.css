@@ -62,3 +62,7 @@
     height: 110px;
     cursor: pointer;
 }
+
+.oculto_html, .oculto_css, .oculto_angular, .oculto_js, .oculto_boots, .oculto_git,.oculto_hub, .oculto_node, .oculto_sql, .oculto_java{
+    display: none;
+}
