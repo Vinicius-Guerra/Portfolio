@@ -8,6 +8,7 @@ form.addEventListener('submit', (event) => {
     nameValidate();
     emailValidate();
     tellValidate();
+    window.alert('Sua mensagem foi enviada com sucesso e será respondida em breve. :)')
 });
 
 function setError(index) {
