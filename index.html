@@ -107,26 +107,26 @@
         </section>
         <div class="background_area">
             <h2 class="cartao_titulo">Complete seu cadastro</h2>
-            <form action="" class="formulario flex flex--coluna">
+            <form action="" id="form" class="formulario flex flex--coluna">
                 <fieldset>
                     <legend class="formulario_legenda">Informe seus dados</legend>
                     <div class="input-container">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required minlength="3">
+                        <input name="nome" id="nome" class="input required" type="text" placeholder="Nome" minlength="3" oninput="nameValidate()">
                         <label class="input-label" for="nome">Nome</label>
-                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                        <span class="input-mensagem-erro">Nome deve ter no minimo 3 caracteres.</span>
                     </div>
                     <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" placeholder="E-Mail" required minlength="4">
+                        <input name="email" id="email" class="input required" type="email" placeholder="E-Mail" minlength="4" oninput="emailValidate()">
                         <label class="input-label" for="email">E-mail</label>
-                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                        <span class="input-mensagem-erro">Este e-mail não é válido.</span>
                     </div>
                     <div class="input-container">
-                        <input name="tell" id="tell" class="input" type="tel" placeholder="Seu telefone" required>
+                        <input name="tell" id="tell" class="input required" type="tel" placeholder="Seu telefone" oninput="tellValidate()">
                         <label class="input-label" for="tell">Telefone</label>
-                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                        <span class="input-mensagem-erro">(xx) x xxxx-xxxx - Número deve conter o DDD e dígitos completos.</span>
                     </div>
                     <div class="input-container">
-                        <textarea class="textarea" name="coment" id="coment" cols="50" rows="7" maxlength="9000" minlength="10" placeholder="Digite aqui sua mensagem" required></textarea>
+                        <textarea class="textarea required" name="coment" id="coment" cols="50" rows="7" maxlength="2000" minlength="10" placeholder="Digite aqui sua mensagem"></textarea>
                     </div>
                     <div class="input-container">
                         <input class="botao_enviar" value="Enviar" id="enviar" type="submit" onclick="clickEnviar()">
