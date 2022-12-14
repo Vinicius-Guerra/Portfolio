@@ -3,6 +3,13 @@ const campos = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.input-mensagem-erro');
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    nameValidate();
+    emailValidate();
+    tellValidate();
+});
+
 function setError(index) {
     campos[index].style.border = '1px solid #e63636';
     spans[index].style.display = 'block';
@@ -33,13 +40,5 @@ function tellValidate() {
         setError(2);
     } else {
         removeError(2);
-    }
-}
-
-function msgValidate() {
-    if(campos[3].value.length < 10 || campos[3].value.length > 2000) {
-        setError(3);
-    } else {
-        removeError(3);
     }
 }
