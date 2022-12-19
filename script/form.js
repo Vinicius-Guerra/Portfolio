@@ -3,13 +3,6 @@ const campos = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.input-mensagem-erro');
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    nameValidate();
-    emailValidate();
-    tellValidate();
-    window.alert('Sua mensagem foi enviada com sucesso e será respondida em breve. :)')
-});
 
 function setError(index) {
     campos[index].style.border = '1px solid #e63636';
