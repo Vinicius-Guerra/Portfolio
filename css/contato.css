@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .background_contato {
-    height: 100vh;
+    height: 110vh;
     background-color: #004AAD;
     background-repeat: no-repeat;
     background-position: center top;
@@ -13,14 +13,17 @@
 .background_area {
     background-color: #fff;
     box-shadow: 0px 5px 10px #55a6ff38;
-    margin-top: 10px;
-    margin-left: 350px;
-    margin-right: 350px;
-    width: 100%;
-    max-width: 40rem;
+    margin-top: 20px;
+    max-width: 45rem;
     box-sizing: border-box;
-    height: 470px;
+    height: 500px;
+    width: 680px;
     border-radius: 10px;
+}
+.flex_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contato_titulo {
@@ -30,7 +33,7 @@
     color: white;
     text-align: center;
     position: relative;
-    margin: 0px 0px 0px 0px;
+    margin-top: 0px;
 }
 
 .contato_subtitulo {

@@ -105,36 +105,38 @@
             <p class="contato_subtitulo">Sinta-se livre para realizar qualquer pergunta.</p>
             <p class="contato_subtitulo">Responderei o mais breve possível.</p>
         </section>
-        <div class="background_area">
-            <h2 class="cartao_titulo">Complete seu cadastro</h2>
-            <form action="https://formsubmit.co/vini.fms@hotmail.com" method="POST" id="form" class="formulario flex flex--coluna">
-                <input type="hidden" name="_next" value="https://envio-lemon.vercel.app/">
-                <input type="hidden" name="_captcha" value="false">
-                <fieldset>
-                    <legend class="formulario_legenda">Informe seus dados</legend>
-                    <div class="input-container">
-                        <input name="name" id="nome" class="input required" required type="text" placeholder="Nome" minlength="3" oninput="nameValidate()">
-                        <label class="input-label" for="nome">Nome</label>
-                        <span class="input-mensagem-erro">Nome deve ter no minimo 3 caracteres.</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="email" id="email" class="input required" required type="email" placeholder="E-Mail" minlength="4" oninput="emailValidate()">
-                        <label class="input-label" for="email">E-mail</label>
-                        <span class="input-mensagem-erro">Este e-mail não é válido.</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="tell" id="tell" class="input required" required type="tel" placeholder="Seu telefone" oninput="tellValidate()">
-                        <label class="input-label" for="tell">Telefone</label>
-                        <span class="input-mensagem-erro" required>(xx) x xxxx-xxxx - Número deve conter o DDD e dígitos completos.</span>
-                    </div>
-                    <div class="input-container">
-                        <textarea class="textarea required" name="coment" id="coment" cols="50" rows="7" maxlength="2000" minlength="10" placeholder="Digite aqui sua mensagem" required></textarea>
-                    </div>
-                    <div class="input-container">
-                        <button class="botao_enviar" id="enviar" type="submit">Enviar</button>
-                    </div>
-                </fieldset>
-            </form>
+        <div class="flex_area">
+            <div class="background_area">
+                <h2 class="cartao_titulo">Complete seu cadastro</h2>
+                <form action="https://formsubmit.co/vini.fms@hotmail.com" method="POST" id="form" class="formulario flex flex--coluna">
+                    <input type="hidden" name="_next" value="https://envio-lemon.vercel.app/">
+                    <input type="hidden" name="_captcha" value="false">
+                    <fieldset>
+                        <legend class="formulario_legenda">Informe seus dados</legend>
+                        <div class="input-container">
+                            <input name="name" id="nome" class="input required" required type="text" placeholder="Nome" minlength="3" oninput="nameValidate()">
+                            <label class="input-label" for="nome">Nome</label>
+                            <span class="input-mensagem-erro">Nome deve ter no minimo 3 caracteres.</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="email" id="email" class="input required" required type="email" placeholder="E-Mail" minlength="4" oninput="emailValidate()">
+                            <label class="input-label" for="email">E-mail</label>
+                            <span class="input-mensagem-erro">Este e-mail não é válido.</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="tell" id="tell" class="input required" required type="tel" placeholder="Seu telefone" oninput="tellValidate()">
+                            <label class="input-label" for="tell">Telefone</label>
+                            <span class="input-mensagem-erro" required>(xx) x xxxx-xxxx - Número deve conter o DDD e dígitos completos.</span>
+                        </div>
+                        <div class="input-container">
+                            <textarea class="textarea required" name="coment" id="coment" cols="50" rows="7" maxlength="2000" minlength="10" placeholder="Digite aqui sua mensagem" required></textarea>
+                        </div>
+                        <div class="input-container">
+                            <button class="botao_enviar" id="enviar" type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
 
     </main>
