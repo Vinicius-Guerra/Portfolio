@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Vinicius Guerra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -17,19 +18,25 @@
 <body>
     <section class="background_inicio">
         <header class="cabecalho ">
-            <div class="logotipo">
-                <img src="imagens/logotipo-noot.png" alt="Logotipo" class="logo">
-                <p class="texto_logo">guerra.me</p>
-            </div>
-            <nav class="menu">
+            <nav class="menu">  
+                <div class="logotipo">
+                    <img src="imagens/logotipo-noot.png" alt="Logotipo" class="logo">
+                    <p class="texto_logo">guerra.me</p>
+                </div>      
+                
                 <ul class="nav__links">
                     <li><a class="link" href="#home">Home</a></li>
                     <li><a class="link" href="#sobre">Sobre</a></li>
                     <li><a class="link" href="#skills">Skills</a></li>
                     <li><a class="link" href="#projetos">Projetos</a></li>
                 </ul>
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
-            <a href="#contato" class="cta botao"><button>Contato</button></a>
+            <a href="#contato" class="cta botao"><button class="none-botao">Contato</button></a>
         </header>
         <main id="home">
             <div class="home">
@@ -154,6 +161,7 @@
         </div>
     </footer>
 
+    <script src="script/script.js"></script>
     <script src="script/main.js"></script>
     <script src="script/form.js"></script>
 </body>
