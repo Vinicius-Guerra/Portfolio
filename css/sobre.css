@@ -25,6 +25,15 @@
     width: 480px;
 }
 
+.sobre_img_responsivo {
+    width: 350px;
+    transition: ease 1.5s;
+    display: none;
+}
+
+.sobre_img_resposivo:hover {
+    width: 380px;
+}
 
 .sobre_textos {
     width: 50%;
@@ -55,10 +64,68 @@
 .sobre_links:hover {
     border-bottom: 1px solid #004AAD;
 }
+.sobre_links2 {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    display: none;
+}
 
 @media (max-width: 890px) {
     .background_sobre {
         background-image: none;
         background-color: rgba(0, 74, 173, 1);;
     }
+    .sobre_img {
+        display: none;
+    }
+    .sobre_titulo {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .sobre_texto {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        padding: 5px;
+        text-align: justify;
+        width: 100%;
+        color: #fff;
+    }
+
+    .links_responsivo {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .sobre_links {
+        display: none;
+    }
+    .sobre_links2 {
+        display: flex;
+    }
+    .sobre_links2:hover {
+        border-bottom: 1px solid #fff;
+    }
+
+    .sobre_img_responsivo{
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .sobre_img_responsivo:hover {
+        width: 380px;
+    }
+
+    .img_resp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre_textos {
+        width: 70%;
+        margin-left: 30px;
+    } 
 }
