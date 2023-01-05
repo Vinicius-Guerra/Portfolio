@@ -9,6 +9,7 @@ html {
 
 
 .background_inicio {
+    height: 100vh;
     background-image: url(../imagens/background-main.png);
     background-repeat: no-repeat;
     background-position: center top;
@@ -59,7 +60,7 @@ html {
 li, .link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: #000000;
     text-decoration: none;
 }
@@ -145,14 +146,14 @@ button:hover {
         top: 70px;
         gap: 0;
         border-radius: 0 0 20px 20px;
-        background-color: rgba(40, 37, 37, 0.3);
+        background-color: #fff;
         text-align: center;
         flex-direction: column;
         width: 100%;
         transition: 0.3s;
     }
     .nav__links li {
-        margin: 16px 0;
+        margin: 20px 0;
     }
     .nav__links.active {
         left: 0;
@@ -161,4 +162,24 @@ button:hover {
     .logotipo{
         margin-right: 10px;
     }
+
+    li, .link {
+        font-size: 1.5rem;
+        color: rgba(0, 74, 173, 1);
+    }
+
+    .nav__links li a:hover {
+        border-bottom: 1px solid #004AAD;
+        margin-top: 10px;
+    }
+
+    .cabecalho {
+        background-color: rgba(40, 37, 37, 0.2);
+    }
+
+    .background_inicio {
+        background-image: none;
+        background-color: rgba(0, 74, 173, 1);
+    }
+
 }

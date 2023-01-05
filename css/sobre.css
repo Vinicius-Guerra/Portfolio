@@ -55,3 +55,10 @@
 .sobre_links:hover {
     border-bottom: 1px solid #004AAD;
 }
+
+@media (max-width: 890px) {
+    .background_sobre {
+        background-image: none;
+        background-color: rgba(0, 74, 173, 1);;
+    }
+}
