@@ -16,8 +16,8 @@
     margin-top: 20px;
     max-width: 45rem;
     box-sizing: border-box;
-    height: 500px;
-    width: 680px;
+    height: 65%;
+    width: 65%;
     border-radius: 10px;
 }
 .flex_area {
@@ -154,4 +154,33 @@
 .botao_enviar:hover {
     background-color: #004AAD;
     color: white;
+}
+
+@media (max-width: 830px){
+    .contato_titulo {
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 890px) {
+    .background_area {
+        height: 45%;
+        width: 45%;
+    }
+
+    .input {
+        width: 70%;
+    }
+
+    .textarea {
+        width: 70%;
+    }
+
+    .botao_enviar {
+        width: 25%;
+        margin-left: 35%;
+        margin-right: 35%;                
+    }
 }

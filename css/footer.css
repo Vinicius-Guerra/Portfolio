@@ -1,3 +1,7 @@
+footer {
+    padding-top: 50px;
+}
+
 .background_footer {
     height: 40vh;
     background-color: #E6E6E6;
@@ -10,7 +14,14 @@
     display: flex;
     justify-content: center;
 }
-
+.sobre_links3 {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.sobre_links2:hover {
+    border-bottom: 1px solid #004AAD;
+}
 .flogo {
     margin-top: 70px;
     margin-left: 15px;
