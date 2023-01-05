@@ -118,6 +118,10 @@ button:hover {
     background-color: #fff;
     transition: all 0.3s ease-in-out;
 }
+
+.contatobt{
+    display: none;
+}
 @media (max-width: 1200px) {
     .logotipo {
         margin-right: 300px;
@@ -180,6 +184,13 @@ button:hover {
     .background_inicio {
         background-image: none;
         background-color: rgba(0, 74, 173, 1);
+    }
+    .contatobt {
+        display: block;
+    }
+    .contatobt:hover {
+        border-bottom: 1px solid #004AAD;
+        margin-top: 10px;
     }
 
 }
