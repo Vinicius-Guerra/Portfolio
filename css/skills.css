@@ -55,10 +55,59 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .teclas_skills {
     width: 110px;
     height: 110px;
     cursor: pointer;
+}
+
+@media (max-width: 890px) {
+    .titulos_skills h2 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 830px) {
+    .titulos_skills p {
+        width: 80%;
+    }
+
+    .titulos_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div_secoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_logos {
+        width: 90%;
+    }
+
+    .background_skills {
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .descricao_skills {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .descricao_texto {
+        margin-top: 20px;
+        
+    }
+}
+
+
+@media (max-width: 610px) {
+    .teclas_skills {
+        width: 88px;
+        height: 88px;
+    }
 }
