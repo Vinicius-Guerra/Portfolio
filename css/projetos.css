@@ -37,3 +37,28 @@
     width: 390px;
     height: 390px;
 }
+
+@media (max-width: 830px) {
+    .projetos_quadros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_projeto {
+        width: 250px;
+        height: 280px;
+    }
+
+    .img_projeto:hover {
+        width: 260px;
+        height: 290px;
+    }
+
+    .projetos_titulo{
+        padding-top: 50px;
+    }
+
+    .img_terceira {
+        display: none;
+    }
+}
