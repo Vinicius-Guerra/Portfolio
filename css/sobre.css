@@ -106,7 +106,7 @@
         display: flex;
     }
     .sobre_links2:hover {
-        border-bottom: 1px solid #fff;
+        border-top: 1px solid #fff;
     }
 
     .sobre_img_responsivo{
