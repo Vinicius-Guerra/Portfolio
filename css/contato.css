@@ -184,3 +184,16 @@
         margin-right: 35%;                
     }
 }
+
+@media (max-width: 570px) {
+    .background_contato {
+        height: 160vh;
+    }
+}
+
+@media (max-width: 540px) {
+    .botao_enviar {
+        font-size: 0.7rem;
+        width: 25%;
+    }
+}
