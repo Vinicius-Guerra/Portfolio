@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/*DEFINIÇÃO BG*/
+
 .background_skills {
     height: 100vh;
     background-image: url(../imagens/bg_skills.png);
@@ -9,29 +11,11 @@
     background-position: center top;
     background-size: 100% 100%;
 }
+
+/*TITULO E SUBTITULO*/
+
 .titulos_skills {
     text-align: center;
-}
-
-.div_secoes {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.descricao_skills {
-    width: 40%;
-}
-
-.descricao_texto {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 0.9rem;
-    text-align: center;
-    margin-top: 28px;
-    border: 1px solid rgba(0, 74, 173, 1);;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .titulos_skills h2 {
@@ -50,6 +34,33 @@
     margin-bottom: 40px;
     margin-top: 10px;
 }
+
+/*SECTIONS*/
+.div_secoes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/*DESCRICAO ITENS*/
+
+.descricao_skills {
+    width: 40%;
+}
+
+.descricao_texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 28px;
+    border: 1px solid rgba(0, 74, 173, 1);;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*TECLAS*/
+
 .section_logos {
     width: 40%;
     display: flex;
@@ -63,6 +74,8 @@
     height: 110px;
     cursor: pointer;
 }
+
+/*RESPONSIVIDADE*/
 
 @media (max-width: 890px) {
     .titulos_skills h2 {

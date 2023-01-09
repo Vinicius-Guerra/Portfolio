@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/*efeito scroll*/
 html {
     scroll-behavior: smooth;
 }
 
-
+/*BACKGROUND*/
 
 .background_inicio {
     height: 100vh;
@@ -15,6 +16,8 @@ html {
     background-position: center top;
     background-size: 100% 100%;
 }
+
+/*DESIGN NAVBAR*/
 
 .cabecalho {
     position: fixed;
@@ -27,6 +30,7 @@ html {
     padding: 10px 5%;
     background-color: rgba(40, 37, 37, 0.3);
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -122,6 +126,9 @@ button:hover {
 .contatobt{
     display: none;
 }
+
+/*RESPONSIVIDADE DO MENU*/
+
 @media (max-width: 1200px) {
     .logotipo {
         margin-right: 300px;
@@ -138,12 +145,13 @@ button:hover {
     .hamburguer.active .bar:nth-child(2) {
         opacity: 0;
     }
-    .hamburguer.active .bar:nth-child(1) {
+    .hamburguer.active .bar:nth-child(1) { /*transformando menu em X*/
         transform: translateY(8px) rotate(45deg);
     }
     .hamburguer.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
     .nav__links {
         position: fixed;
         left: -100%;
@@ -159,6 +167,7 @@ button:hover {
     .nav__links li {
         margin: 20px 0;
     }
+    
     .nav__links.active {
         left: 0;
     }

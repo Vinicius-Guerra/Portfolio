@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/*Definição BG*/
 .background_sobre {
     height: 100vh;
     background-image: url(../imagens/background-2.png);
@@ -16,6 +17,18 @@
     align-items: center;
     justify-content: center;
 }
+
+/*TITULO*/
+
+.sobre_titulo {
+    font-family: 'Noto Sans Adlam', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #4F4C4C;;
+}
+
+/*FOTO PERFIL*/
+
 .sobre_img {
     width: 450px;
     transition: ease 1.5s;
@@ -35,17 +48,13 @@
     width: 380px;
 }
 
+/*TEXTO E LINKS*/
+
 .sobre_textos {
     width: 50%;
     margin-left: 60px;
 }
 
-.sobre_titulo {
-    font-family: 'Noto Sans Adlam', sans-serif;
-    font-size: 2.3rem;
-    font-weight: 500;
-    color: #4F4C4C;;
-}
 
 .sobre_texto {
     margin-top: 1.5rem;
@@ -70,6 +79,8 @@
     margin-top: 10px;
     display: none;
 }
+
+/*RESPONSIVIDADE*/
 
 @media (max-width: 890px) {
     .background_sobre {
