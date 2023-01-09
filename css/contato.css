@@ -163,7 +163,7 @@
     }
 
     .background_contato {
-        height: 160vh;
+        height: 120vh;
     }
 }
 
@@ -208,5 +208,11 @@
 @media (max-width: 413px) {
     .background_area {
         width: 80%;
+    }
+}
+
+@media (max-width: 310px) {
+    .textarea {
+        margin-left: 20px;
     }
 }
