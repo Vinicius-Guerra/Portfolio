@@ -163,4 +163,17 @@
     }
 }
 
+@media (max-width: 540px) {
+    .section_esquerda p {
+        margin-left: 0;
+    }
+    .nome {
+        margin-left: 0;
+    }
+
+    .botao_responsivo{
+        margin-left: 5px;
+    }
+}
+
 
